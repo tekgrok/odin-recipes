@@ -1,23 +1,63 @@
 * {
-    color: darkblue;
-    background-color: lightgray;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
 }
 
-img {
+html,
+.content {
+    background-color: rgb(200, 198, 211);
+}
+
+a {
+    color: rgb(148, 253, 56);
+}
+
+.box {
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 90%;
+    height: auto;
+}
+
+.inner-box {
+    text-align: left;
+    background-color: rgb(149, 54, 62);
+    color: white;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 90%;
+    height: auto;
+}
+
+.title {
+    background-color: rgb(54, 61, 61);
+}
+
+.subtitle {
+    background-color: rgb(149, 54, 62);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 90%;
+    height: auto;
+}
+
+.content {
+    padding: 20px 30px;
+    margin: 10px;
+}
+
+.content li {
+    color: rgb(0, 0, 0);
+}
+
+.steak {
     height: auto;
     display: block;
     margin: 0 auto;
     width: 35%;
-}
-
-h1,
-h2,
-ul,
-ol {
-    text-align: left;
-}
-
-p {
-    text-align: center;
+    outline: 15px solid white;
 }
